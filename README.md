@@ -11,15 +11,18 @@ Receive notifications about upcoming deadlines or important announcements.
 Submit assignments and track their progress.
 
 
+
 **Faculty Management:**
 Faculty members can track student attendance.
 Communicate with students through in-app messaging.
 Receive notifications about faculty meetings, events, and academic deadlines.
 
 
+
 **Administrative Tools:**
 Manage student records, including personal details, academic performance, and attendance.
 Send bulk notifications to students, faculty, and staff.
+
 
 
 **Campus News and Events:**
