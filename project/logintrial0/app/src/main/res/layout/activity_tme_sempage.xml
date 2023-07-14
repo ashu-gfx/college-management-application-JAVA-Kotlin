@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".t_me_sempage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_timetable_sem_bg"
+        android:orientation="vertical">
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/timetable_sem"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:contentDescription="@string/todo"-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="1.0"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            app:layout_constraintVertical_bias="0.0"-->
+        <!--            app:srcCompat="@drawable/ic_timetable_sem_bg"-->
+        <!--            tools:ignore="ImageContrastCheck,ImageContrastCheck" />-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="35dp"
+            app:cardCornerRadius="36dp">
+
+
+            <ImageView
+                android:id="@+id/profileImage13"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:src="@drawable/men_profile" />
+        </androidx.cardview.widget.CardView>
+
+        <ImageButton
+            android:id="@+id/t1_sem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="213dp"
+            android:layout_marginEnd="190dp"
+            android:layout_marginRight="190dp"
+            android:background="@null"
+            android:src="@drawable/ic_t_sem1"
+            tools:ignore="DuplicateSpeakableTextCheck"
+            tools:src="@drawable/ic_t_sem1" />
+
+        <ImageButton
+            android:id="@+id/t2_sem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="190dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="213dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@null"
+            android:src="@drawable/ic_t_sem2"
+            tools:src="@drawable/ic_t_sem2" />
+
+        <ImageButton
+            android:id="@+id/t3_sem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="190dp"
+            android:layout_marginRight="190dp"
+            android:background="@null"
+            android:src="@drawable/ic_t_sem3"
+            tools:ignore="DuplicateSpeakableTextCheck"
+            tools:src="@drawable/ic_t_sem3" />
+
+        <ImageButton
+            android:id="@+id/t4_sem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="190dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@null"
+            android:src="@drawable/ic_t_sem4"
+            tools:ignore="DuplicateSpeakableTextCheck"
+            tools:src="@drawable/ic_t_sem4" />
+
+        <ImageButton
+            android:id="@+id/t5_sem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="590dp"
+            android:layout_marginEnd="190dp"
+            android:layout_marginRight="190dp"
+            android:background="@null"
+            android:src="@drawable/ic_t_sem5"
+            tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck"
+            tools:src="@drawable/ic_t_sem5" />
+
+        <ImageButton
+            android:id="@+id/t6_sem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="190dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="590dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@null"
+            android:src="@drawable/ic_t_sem6"
+            tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck"
+            tools:src="@drawable/ic_t_sem6" />
+
+        <ImageButton
+            android:id="@+id/t7_sem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="770dp"
+            android:layout_marginEnd="190dp"
+            android:layout_marginRight="190dp"
+            android:background="@null"
+            android:src="@drawable/ic_t_sem7"
+            tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck"
+            tools:src="@drawable/ic_t_sem7" />
+
+        <ImageButton
+            android:id="@+id/t8_sem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="190dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="770dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@null"
+            android:src="@drawable/ic_t_sem8"
+            tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck"
+            tools:src="@drawable/ic_t_sem8" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

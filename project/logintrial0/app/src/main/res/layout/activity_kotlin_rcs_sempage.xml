@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlin_r_cs_sempage">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_roomno_sempage"
+        android:orientation="vertical">
+
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/room_sem"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:contentDescription="@string/todo"-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="1.0"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            app:layout_constraintVertical_bias="0.0"-->
+        <!--            app:srcCompat="@drawable/ic_roomno_sempage"-->
+        <!--            tools:ignore="ImageContrastCheck,ImageContrastCheck" />-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="35dp"
+            app:cardCornerRadius="36dp">
+
+
+            <ImageView
+                android:id="@+id/profileImage24"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:src="@drawable/men_profile" />
+        </androidx.cardview.widget.CardView>
+
+
+        <ImageButton
+            android:id="@+id/r1_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="190dp"
+            android:layout_marginRight="190dp"
+            android:background="@null"
+            android:src="@drawable/ic_r_sem1"
+            tools:ignore="DuplicateSpeakableTextCheck"
+            tools:src="@drawable/ic_r_sem1" />
+
+
+        <Button
+            android:id="@+id/r1_room_flip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:text="F2"
+            android:textColor="#E2E9FF"
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:background="@drawable/ic_roomno_flip1"
+            android:fontFamily="@font/barlow_semiboldd"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="190dp"
+            android:layout_marginRight="190dp"
+            android:alpha="0"
+
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/r2_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="190dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@null"
+            android:src="@drawable/ic_r_sem2"
+            tools:src="@drawable/ic_r_sem2" />
+
+        <Button
+            android:id="@+id/r2_room_flip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:text="F1"
+            android:textColor="#E2E9FF"
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:background="@drawable/ic_roomno_flip1"
+            android:fontFamily="@font/barlow_semiboldd"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="190dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:alpha="0" />
+
+        <ImageButton
+            android:id="@+id/r3_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginEnd="190dp"
+            android:layout_marginRight="190dp"
+            android:background="@null"
+            android:src="@drawable/ic_r_sem3"
+            tools:ignore="DuplicateSpeakableTextCheck"
+            tools:src="@drawable/ic_r_sem3" />
+
+
+        <Button
+            android:id="@+id/r3_room_flip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:text="F1"
+            android:textColor="#E2E9FF"
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:background="@drawable/ic_roomno_flip1"
+            android:fontFamily="@font/barlow_semiboldd"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginEnd="190dp"
+            android:layout_marginRight="190dp"
+            android:alpha="0"
+            tools:ignore="DuplicateSpeakableTextCheck"
+            />
+
+        <ImageButton
+            android:id="@+id/r4_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="190dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@null"
+            android:src="@drawable/ic_r_sem4"
+            tools:ignore="DuplicateSpeakableTextCheck"
+            tools:src="@drawable/ic_r_sem4" />
+
+        <Button
+            android:id="@+id/r4_room_flip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="F1"
+            android:textColor="#E2E9FF"
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:background="@drawable/ic_roomno_flip1"
+            android:fontFamily="@font/barlow_semiboldd"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="190dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:alpha="0"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+    </RelativeLayout>
+</ScrollView>
